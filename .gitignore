@@ -2,5 +2,9 @@ build
 bin
 lib
 include
+.LastOpenedMOOSLogDirectory
+*MOOSLog_*
+opencv-2.4.9-pod
+robotx-mit2014
 
 
