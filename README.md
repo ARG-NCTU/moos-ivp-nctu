@@ -35,6 +35,7 @@ sudo apt-get install g++ subversion xterm cmake libfltk1.3-dev freeglut3-dev lib
 ```
 ./build-moos.sh
 ./build-ivp.sh
+```
 
 ### Add Environment Variables (required for RobotX code)
 
