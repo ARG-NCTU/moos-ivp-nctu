@@ -22,7 +22,7 @@ git clone git@github.com:ARG-NCTU/moos-ivp-nctu.git moos-ivp
 libtiff4-dev is replaced by libtiff5.dev
 
 ```
-sudo apt-get install g++ subversion xterm cmake libfltk1.3-dev freeglut3-dev libpng12-dev libjpeg-dev libxft-dev libxinerama-dev libtiff5-dev
+./dependencies_common.sh
 ```
 
 ### Build
