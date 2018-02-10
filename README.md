@@ -26,12 +26,8 @@ libtiff4-dev is replaced by libtiff5.dev
 ```
 
 ### Build
-```
-./build-moos.sh
-./build-ivp.sh
-```
 
-### Build on ARM (Jetson TX2, Raspberry Pi3)
+Tested on workstation, laptop, Pi3 Duckiebot, TX2 (unsuccessful)
 ```
 ./build-moos.sh
 ./build-ivp.sh
