@@ -172,7 +172,7 @@ cd "${BUILD_ABS_DIR}/proj-4.8.0"
 # TODO: This will always build PROJ4, even if local OS install performed.
 if [ ! -e lib/libproj.a ]; then
   echo "Building Proj4. MOOSGeodesy now uses Proj4 with MOOSGeodesy wrapper"
-  "${MOOS_SRC_DIR}/proj-4.8.0/configure" --with-jni=no --enable-shared=no --enable-static=yes --with-pic  \
+  "${MOOS_SRC_DIR}/proj-4.8.0/configure" --with-jni=no --enable-shared=no --enable-static=yes --with-pic --build=aarch64-unknown-linux-gnu \
     && make -j$(getconf _NPROCESSORS_ONLN)           \
     && make install                                  \
     && echo "Done Building Proj4."
